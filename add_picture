@@ -4,3 +4,4 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     vec4 texColor = texture(iChannel0,xy); // get pixel with coords (x;y) from iChannel0
     fragColor = texColor; // set pixel color
 }
+# for changing value in time use sin - texColor.z = sin(iTime);
