@@ -7,7 +7,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
         texColor.y = cos(iTime);
         texColor.z = sin(iTime);
     }
-    if (texColor.z > 0.9) {
+    if (texColor.z > 0.01) {
         texColor.x = sin(iTime * 10.0);
         texColor.y = cos(iTime * 20.0);
         texColor.z = sin(iTime);
